@@ -1,2 +1,2 @@
-# olajoskata.github.io
+# katalin-olajos.github.io
 Saját weboldal
