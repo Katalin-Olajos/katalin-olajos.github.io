@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalin Olajos</title>
+    <link rel="stylesheet" href="./css/öneletrajz.css">
+    <link rel="shortcut icon" href="./Kata_logo.png" type="image/x-i" >
 </head>
 <body>
-    <h1>Önéletrajz</h1>
-
-    <img src="https://avatars.githubusercontent.com/u/94854728?v=4" height="220" width="220"/>
-    <br>
-    <br>
-    <hr>
+    <h1 id="vissza">Önéletrajz</h1>
+    <img src="https://avatars.githubusercontent.com/u/94854728?v=4" height="220" width="220" alt="Olajos Katalin portrékép"/>
+    <nav>
+        <button class="gomb"><a href="#kapcsolat"><span class="kapcs">Lépj velem kapcsolatba</span></a></button>
+    </nav>
     <h3>Személyes adatok:</h3>
     <ul>
         <li>Név: Olajos Katalin
@@ -30,7 +31,7 @@
 
     <h3>Tanulmányok:</h3>
     <ul>
-        <li>2021 - : Programozás Karrier, webjelesztő 
+        <li>2021 - : Programozás Karrier, webfejlesztő 
         <li>2007  : Online szerkesztő továbbképzés, Inform Média 
         <li>2007 : Lapszerkesztő továbbképzés, Inform Média 
         <li>2001 - 2003: politológia, Miskolci Egyetem (megszakított tanulmány)
@@ -52,8 +53,50 @@
     
     <h3>Hobbi:</h3>
     <ul>
-        <li>Olvas<b>ás</b>, ír<b>ás</b>, rajzol<b>ás</b>, fotóz<b>ás</b>, sportol<b>ás</b> - és minden egyéb ...<b>ás</b>.
+        <li>Olvas<strong>ás</strong>, ír<strong>ás</strong>, rajzol<strong>ás</strong>, fotóz<strong>ás</strong>, sportol<strong>ás</strong> - és minden egyéb ...<b>ás</b>.
     </ul>
-        <br><br>
+    <form action="https://formspree.io/f/mlezbgqv" method="POST">
+        <fieldset>
+            <legend id="kapcsolat" class="kapcs">Lépj velem kapcsolatba</legend>
+       <section>
+        <label>
+            Vezetéknév:
+            <input type="text"
+            name="vezetéknév"
+            placeholder="Vezetéknév"
+            required>        
+        </label>
+    </section>
+    <section>
+        <label>
+            Keresztnév:
+            <input type="text"
+            name="keresztnév"
+            placeholder="Keresztnév"
+            required>
+        </label>
+    </section>
+    <section>
+        <label>
+            Email cím:
+            <input type="email"
+            name="email"
+            placeholder="Email cím"
+            required>
+        </label>
+    </section>
+    <section>
+        <label>
+            Üzenet:
+            <textarea name="üzenet" cols="40" rows="10"></textarea>
+        </label>
+    </section>
+</fieldset>
+       
+        <input class="gomb" type="submit" value="Küldés">
+    </form>
+    <nav>
+      <a class="kapcs" href="#vissza">Vissza az oldal tetejére</a>
+    </nav>
 </body>
 </html>
