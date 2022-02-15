@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalin Olajos</title>
+    <link rel="stylesheet" href="./css/öneletrajz.css">
+    <link rel="shortcut icon" href="./Kata_logo.png" type="image/x-i" >
+</head>
+<body>
+    <h1 id="vissza">Önéletrajz</h1>
+    <img src="https://avatars.githubusercontent.com/u/94854728?v=4" height="220" width="220" alt="Olajos Katalin portrékép"/>
+    <nav>
+        <button class="gomb"><a href="#kapcsolat"><span class="kapcs">Lépj velem kapcsolatba</span></a></button>
+    </nav>
+    <h3>Személyes adatok:</h3>
+    <ul>
+        <li>Név: Olajos Katalin
+        <li>Születési dátum, hely: 1980, Miskolc
+        <li>Lakcím: Bécs
+        <li>Emailcím: kata.olajos@gmail.com
+    </ul>
+    
+    <h3>Szakmai pályafutás:</h3>
+    <ul>
+        <li>2016 -     : Felszolgáló, Springer Schlössl, Wien
+        <li>2013 - 2015: Felszolgáló, Billabong, Wien 
+        <li>2001 - 2012: Újságíró, később online szerkesztő, Észak-Magyarország napilap/Borsod Online, Miskolc
+    </ul>
+
+    <h3>Tanulmányok:</h3>
+    <ul>
+        <li>2021 - : Programozás Karrier, webfejlesztő 
+        <li>2007  : Online szerkesztő továbbképzés, Inform Média 
+        <li>2007 : Lapszerkesztő továbbképzés, Inform Média 
+        <li>2001 - 2003: politológia, Miskolci Egyetem (megszakított tanulmány)
+        <li>1998 - 2000: ÉRÁK, Európai Üzleti Asszisztens
+        <li>1994 - 1998: Szemere Bertalan Gimnázium, Miskolc
+    </ul>
+    <h3>Nyelvek:</h3>
+    <ul>
+        <li>Angol: társalgási szint
+        <li>Német: B2 (C1 folyamatban)
+        <li>Magyar: anyanyelv
+    </ul>
+    <h3>Egyéb ismeretek:</h3>
+    <ul>
+        <li>Számítógépes ismeretek: Adobe Photoshop, World, Excel, Power Point
+        <li>Gyors- és gépírás
+        <li>Fotózási alapismeretek
+    </ul>
+    
+    <h3>Hobbi:</h3>
+    <ul>
+        <li>Olvas<strong>ás</strong>, ír<strong>ás</strong>, rajzol<strong>ás</strong>, fotóz<strong>ás</strong>, sportol<strong>ás</strong> - és minden egyéb ...<b>ás</b>.
+    </ul>
+    <form action="https://formspree.io/f/mlezbgqv" method="POST">
+        <fieldset>
+            <legend id="kapcsolat" class="kapcs">Lépj velem kapcsolatba</legend>
+       <section>
+        <label>
+            Vezetéknév:
+            <input type="text"
+            name="vezetéknév"
+            placeholder="Vezetéknév"
+            required>        
+        </label>
+    </section>
+    <section>
+        <label>
+            Keresztnév:
+            <input type="text"
+            name="keresztnév"
+            placeholder="Keresztnév"
+            required>
+        </label>
+    </section>
+    <section>
+        <label>
+            Email cím:
+            <input type="email"
+            name="email"
+            placeholder="Email cím"
+            required>
+        </label>
+    </section>
+    <section>
+        <label>
+            Üzenet:
+            <textarea name="üzenet" cols="40" rows="10"></textarea>
+        </label>
+    </section>
+</fieldset>
+       
+        <input class="gomb" type="submit" value="Küldés">
+    </form>
+    <nav>
+      <a class="kapcs" href="#vissza">Vissza az oldal tetejére</a>
+    </nav>
+</body>
+</html>
